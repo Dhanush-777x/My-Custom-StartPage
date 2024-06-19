@@ -84,7 +84,8 @@ const AccordionTitleWrapper = styled.button<{ active: boolean }>`
   > .wave {
     /* Waves Source: https://codepen.io/mburakerman/pen/eRZZEv */
     width: 82px;
-    height: 50px;
+    height: 40px;
+    border-radius: 10px;
     position: absolute;
     top: ${({ active }) => (active ? "0px" : "350px")};
     overflow: hidden;
@@ -119,10 +120,10 @@ const AccordionTitleWrapper = styled.button<{ active: boolean }>`
             > * {
                 color: var(--bg-color);
                 text-shadow:
-                    5px 0px 0 var(--accent-color),
-                    4px 0px 0 var(--accent-color),
-                    3px 0px 0 var(--accent-color),
-                    2px 0px 0 var(--accent-color),
+                    1px 0px 0 var(--accent-color),
+                    1px 0px 0 var(--accent-color),
+                    1px 0px 0 var(--accent-color),
+                    1px 0px 0 var(--accent-color),
                     1px 0px 0 var(--accent-color),
                     -1px 0px 0 var(--accent-color),
                     0px 1px 0 var(--accent-color),
