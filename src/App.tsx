@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import "./base/variables.css"
+
+import * as Settings from "./Startpage/Settings/settingsHandler"
+import { Startpage } from "./Startpage/Startpage"
+
+const App = () => {
+  //Apply colors
+  const root = document.documentElement
+  const colors = Settings.Design.getWithFallback().colors
+  Object.keys(colors).forEach(key => {
+    root.style.setProperty(key, colors[key])
+  })
+
+  return <Startpage />
 }
 
-export default App;
+export default App
