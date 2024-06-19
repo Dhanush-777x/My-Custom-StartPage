@@ -207,12 +207,15 @@ export interface Search {
 export const searchSettings: Search = {
   engine: searchEngines[0].value,
   fastForward: {
-    deepl: "https://deepl.com/",
-    maps: "https://google.de/maps/",
-    reddit: "https://reddit.com/",
-    github: "https://github.com/",
+    rdt: "https://reddit.com/",
+    gh: "https://github.com/",
     gitlab: "https://gitlab.com/",
-    youtube: "https://youtube.com/",
+    yt: "https://youtube.com/",
+    nxt: "https://learning.ccbp.in/",
+    gpt: "https://chatgpt.com/",
+    lms: "https://lms.snuchennai.edu.in/login/index.php",
+    gm: "https://mail.google.com/mail/u/0/#inbox",
+    ol: "https://outlook.office365.com/mail/"
   },
 }
 
