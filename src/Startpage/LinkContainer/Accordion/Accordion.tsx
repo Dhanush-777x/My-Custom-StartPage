@@ -43,6 +43,7 @@ const AccordionTitleWrapper = styled.button<{ active: boolean }>`
   padding: 0;
   background-color: var(--bg-color);
   border: 4px solid var(--accent-color);
+  border-radius: 10px;
   height: 100%;
   width: 90px;
   cursor: ${({ active }) => (active ? "default" : "pointer")};

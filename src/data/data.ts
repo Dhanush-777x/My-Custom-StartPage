@@ -180,6 +180,10 @@ export const images: dataElem[] = [
 
 export const searchEngines: dataElem[] = [
   {
+    label: "Ecosia",
+    value: `https://ecosia.org/search/?q=${queryToken}`,
+  },
+  {
     label: "DuckDuckGo",
     value: `https://duckduckgo.com/?q=${queryToken}`,
   },
@@ -190,11 +194,7 @@ export const searchEngines: dataElem[] = [
   {
     label: "Qwant",
     value: `https://qwant.com/?q=${queryToken}`,
-  },
-  {
-    label: "Ecosia",
-    value: `https://ecosia.org/search/?q=${queryToken}`,
-  },
+  }
 ]
 
 export type FastForwards = Record<string, string>
