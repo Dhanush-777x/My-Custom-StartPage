@@ -180,6 +180,10 @@ export const images: dataElem[] = [
 
 export const searchEngines: dataElem[] = [
   {
+    label: "startpage",
+    value: `https://www.startpage.com/do/search?q=${queryToken}`,
+  },
+  {
     label: "Ecosia",
     value: `https://ecosia.org/search/?q=${queryToken}`,
   },

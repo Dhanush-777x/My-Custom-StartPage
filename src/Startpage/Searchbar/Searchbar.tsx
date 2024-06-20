@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "@emotion/styled";
 import { useHotkeys } from "react-hotkeys-hook";
 import duckduckgo from "../../data/pictures/duckduckgo.svg";
 import ecosia from "../../data/pictures/ecosia.svg";
 import google from "../../data/pictures/google.svg";
 import qwant from "../../data/pictures/qwant.svg";
+import startpage from "../../data/pictures/startpage.png";
 import * as Settings from "../Settings/settingsHandler";
 
 export const queryToken = "{{query}}";
@@ -56,6 +57,7 @@ export const Searchbar = () => {
 
   let searchSymbol = undefined;
   if (engine.includes("duckduckgo")) searchSymbol = duckduckgo;
+  else if (engine.includes("startpage")) searchSymbol = startpage;
   else if (engine.includes("google")) searchSymbol = google;
   else if (engine.includes("qwant")) searchSymbol = qwant;
   else if (engine.includes("ecosia")) searchSymbol = ecosia;
