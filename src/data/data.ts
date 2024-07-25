@@ -243,9 +243,9 @@ export const themes: Theme[] = [
     image:
       "https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png",
     colors: {
-      "--bg-color": "#24273A",
+      "--bg-color": "#1e1e2e",
       "--default-color": "#CAD3F5",
-      "--accent-color": "#b4befe",
+      "--accent-color": "#cba6f7",
       "--accent-color2": "#8AADF4",
     },
   },
