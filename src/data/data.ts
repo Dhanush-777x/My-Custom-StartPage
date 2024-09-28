@@ -250,12 +250,12 @@ export const themes: Theme[] = [
     },
   },
   {
-    name: "DeathAndMilk",
-    image: pic_1,
+    name: "Tokyo Night",
+    image: "https://res.cloudinary.com/dvznq1gfv/image/upload/v1727519221/arcade_g9bbpv.png",
     colors: {
-      "--bg-color": "#2E2E2E",
-      "--default-color": "#E6E6E6",
-      "--accent-color": "#FFB4E6",
+      "--bg-color": "#1a1b26",
+      "--default-color": "#CAD3F5",
+      "--accent-color": "#7AA2F7",
       "--accent-color2": "#B4FFE6",
     },
   },
