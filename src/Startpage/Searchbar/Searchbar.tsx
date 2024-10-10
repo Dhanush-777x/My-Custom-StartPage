@@ -87,7 +87,7 @@ export const Searchbar = () => {
         type="input"
         onKeyUp={(e) => e.which === 13 && redirectToSearch(e.currentTarget.value)}
         ref={inputRef}
-        autoFocus
+{/*         autoFocus */}
       />
     </StyledSearchbarContainer>
   );
