@@ -61,7 +61,6 @@ export const Startpage = () => {
         <Image src={img} onError={() => setImg(images[0].value)} alt="Placeholder" />
         <LinkContainer />
       </StyledStartpage>
-{/*       <Searchbar /> */}
       <Settings />
     </Wrapper>
   );
